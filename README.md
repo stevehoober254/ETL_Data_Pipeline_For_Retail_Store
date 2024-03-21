@@ -26,11 +26,13 @@ This ETL pipeline extracts data from each source, transforms it into a consisten
 ## Project Structure
 
 ETL_Data_Pipeline_For_Retail_Store/
-├── dags/
-│ └── etl_dag.py # Airflow DAG definition
-├── data/ # Optional: temporary data during transformations
-├── utils/ # Optional: reusable functions (common across ETL scripts)
-└── etl.py # Main ETL script
+
+- dags/
+  - etl_dag.py <!-- Airflow DAG definition -->
+- data/ <!-- Optional: temporary data during transformations -->
+- utils/ <!-- Optional: reusable functions (common across ETL scripts) -->
+- etl.py <!-- Main ETL script -->
+- README.md <!-- Project description and instructions -->
 
 ## Implementation
 
